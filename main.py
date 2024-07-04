@@ -3,7 +3,7 @@ import requests
 
 client = discord.Client(intents=discord.Intents.all())
 
-TOKEN = "token"
+TOKEN = 
 CHANNEL_ID = 
 SERVER_ID =
 
@@ -30,4 +30,4 @@ def publish_message(message_id):
     else:
         print(f"Failed to publish message. Status code: {response.status_code}, Response: {response.text}")
 
-client.run(TOKEN)
+client.run("TOKEN")
